@@ -1,0 +1,66 @@
+body{
+    background:lightblue;
+    box-sizing: border-box;
+  }
+  div{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-align:center;
+    background:grey;
+    font-family:sans-serif;
+  }
+
+  h2{
+    margin: 10px 5px 2px;
+    font-family:serif;
+  }
+  ul{
+    margin:0;
+    padding:0;
+  }
+  ul li{
+    cursor:pointer;
+    background:lightblue;
+    padding: 12px 8px 12px;
+    font-size:16px;
+    position:relative;
+   user-select:none;
+    height:20px;
+    
+  }
+  
+  ul li:nth-child(even) {
+    background:whitesmoke
+  }
+  
+  ul li:hover{
+    background: grey;
+  }
+  ul li.checked{
+    text-decoration:line-through;
+  }
+  input{
+    margin: 10px 0;
+    border: none;
+  }
+  #input #push.active{
+    opacity:1;
+    pointer-events:auto;
+  }
+  button{
+    background:lightcyan
+  }
+  button:hover{
+    background-color: white
+  }
+  .delete{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 2px 12px 2px;
+  }
+  footer{
+    display:flex;
+    justify-content:space-between;
+  }
